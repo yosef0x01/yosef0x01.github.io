@@ -19,12 +19,6 @@
 
   <header class="topnav">
     <div class="topnav-inner">
-      <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
-      <nav class="site-nav">
-        {% for item in site.nav %}
-        <a href="{{ item.link | relative_url }}" class="nav-link {% if page.url == item.link %}active{% endif %}">{{ item.name }}</a>
-        {% endfor %}
-      </nav>
       <div class="nav-right">
         {% if site.github_username %}
         <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener" class="nav-icon" title="GitHub">

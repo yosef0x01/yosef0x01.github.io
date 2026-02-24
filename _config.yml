@@ -17,10 +17,6 @@ twitter_username:  yosef0x1
 nav:
   - name: "Home"
     link: "/"
-  - name: "CVEs"
-    link: "/cves"
-  - name: "Tools"
-    link: "/tools"
   - name: "About"
     link: "/about"
   - name: "Contact"

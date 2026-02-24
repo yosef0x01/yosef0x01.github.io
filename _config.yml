@@ -1,0 +1,53 @@
+# =============================================
+#   yosef0x1 — CYBERSECURITY BLOG
+# =============================================
+
+title: "yosef0x1"
+tagline: "Security researcher. CVE hunter. I break things and write about it."
+description: "Independent offensive security research — vulnerability writeups, CVEs, and open-source tools."
+url: ""
+# baseurl: "/your-repo-name"   # ← Uncomment if repo is NOT username.github.io
+
+# NO remote_theme — fully self-hosted, no interference
+theme: minima  # minimal base, we override everything
+
+github_username:   yosef0x1
+twitter_username:  yosef0x1
+
+nav:
+  - name: "Home"
+    link: "/"
+  - name: "CVEs"
+    link: "/cves"
+  - name: "Tools"
+    link: "/tools"
+  - name: "About"
+    link: "/about"
+  - name: "Contact"
+    link: "/contact"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/page:num/"
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  parse_block_html: true
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    block:
+      line_numbers: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - "*.sh"

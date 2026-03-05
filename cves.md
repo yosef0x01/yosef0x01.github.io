@@ -19,13 +19,6 @@ Vulnerabilities discovered and responsibly disclosed. All findings were reported
 
 ---
 
-### Hall of Fame
-
-- **Mediatek** — Acknowledged for contributions to IT security
-- **Nokia** — Recognized for responsible disclosure
-
----
-
 ### Disclosure Policy
 
 90-day policy aligned with Google Project Zero. Extensions granted for complex coordinated releases.

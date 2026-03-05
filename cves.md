@@ -10,12 +10,6 @@ Vulnerabilities discovered and responsibly disclosed. All findings were reported
 
 ---
 
-### 2025
-
-| CVE | Product | Type |
-|-----|---------|------|
-| CVE-2025-55182 | React2Shell | Vulnerability in React-based application |
-
 ### 2022
 
 | CVE | Product | Type |

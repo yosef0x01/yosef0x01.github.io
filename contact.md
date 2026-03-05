@@ -14,7 +14,7 @@ For vulnerability reports, research collaboration, or general inquiries.
 |---------|---------|
 | Email   | [contact@yosef0x1.com](mailto:contact@yosef0x1.com) |
 | Twitter / X | [@yosef0x1](https://twitter.com/yosef0x1) |
-| GitHub | [github.com/yosef0x1](https://github.com/yosef0x01) |
+| GitHub | [github.com/yosef0x01](https://github.com/yosef0x01) |
 
 ---
 

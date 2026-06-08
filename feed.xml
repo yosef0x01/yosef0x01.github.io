@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yosef0x1 — vulnerability research</title>
+    <link>https://yosef0x1.com/</link>
+    <atom:link href="https://yosef0x1.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>CVE writeups and offensive security research by yosef0x1.</description>
+    <language>en</language>
+    <lastBuildDate>Sun, 17 Dec 2023 00:00:00 -0000</lastBuildDate>
+    <item>
+      <title>Unauthenticated RCE in GoAnywhere MFT via Insecure Deserialization</title>
+      <link>https://yosef0x1.com/post-demo.html?cve=CVE-2023-0669</link>
+      <guid isPermaLink="true">https://yosef0x1.com/post-demo.html?cve=CVE-2023-0669</guid>
+      <category>CVE-2023-0669</category>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 -0000</pubDate>
+      <description>Pre-auth Java deserialization in LicenseResponseServlet, reachable via a crafted bundle parameter.</description>
+    </item>
+    <item>
+      <title>Bypassing URL Blacklists in Python urllib with a Leading Space</title>
+      <link>https://yosef0x1.com/post-demo.html?cve=CVE-2023-24329</link>
+      <guid isPermaLink="true">https://yosef0x1.com/post-demo.html?cve=CVE-2023-24329</guid>
+      <category>CVE-2023-24329</category>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 -0000</pubDate>
+      <description>A whitespace-tolerant scheme parser disagrees with downstream allowlists. One byte slips past most SSRF defenses.</description>
+    </item>
+    <item>
+      <title>Path Traversal to RCE in the Openfire XMPP Server</title>
+      <link>https://yosef0x1.com/post-demo.html?cve=CVE-2023-32315</link>
+      <guid isPermaLink="true">https://yosef0x1.com/post-demo.html?cve=CVE-2023-32315</guid>
+      <category>CVE-2023-32315</category>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 -0000</pubDate>
+      <description>Openfire normalizes ASCII traversal but trusts %u002e — enough for unauthenticated RCE via the plugin uploader.</description>
+    </item>
+    <item>
+      <title>Authentication Bypass &amp; RCE in PaperCut MF/NG</title>
+      <link>https://yosef0x1.com/post-demo.html?cve=CVE-2023-27350</link>
+      <guid isPermaLink="true">https://yosef0x1.com/post-demo.html?cve=CVE-2023-27350</guid>
+      <category>CVE-2023-27350</category>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 -0000</pubDate>
+      <description>Session puzzling in SetupCompleted lets an unauthenticated attacker reach the admin panel and pivot to RCE.</description>
+    </item>
+    <item>
+      <title>Windows Backup Service LPE — SYSTEM via Arbitrary File Delete</title>
+      <link>https://yosef0x1.com/post-demo.html?cve=CVE-2023-21752</link>
+      <guid isPermaLink="true">https://yosef0x1.com/post-demo.html?cve=CVE-2023-21752</guid>
+      <category>CVE-2023-21752</category>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 -0000</pubDate>
+      <description>A TOCTOU race in the Windows Backup Service turns a low-priv delete primitive into a SYSTEM shell.</description>
+    </item>
+    <item>
+      <title>KeePass Password Theft via Malicious Config File</title>
+      <link>https://yosef0x1.com/post-demo.html?cve=CVE-2023-24055</link>
+      <guid isPermaLink="true">https://yosef0x1.com/post-demo.html?cve=CVE-2023-24055</guid>
+      <category>CVE-2023-24055</category>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 -0000</pubDate>
+      <description>With write access to the XML config, an attacker silently exfiltrates the entire vault.</description>
+    </item>
+    <item>
+      <title>Arbitrary File Execution in Rust's webbrowser-rs via Crafted URLs</title>
+      <link>https://yosef0x1.com/post-demo.html?cve=CVE-2022-45299</link>
+      <guid isPermaLink="true">https://yosef0x1.com/post-demo.html?cve=CVE-2022-45299</guid>
+      <category>CVE-2022-45299</category>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 -0000</pubDate>
+      <description>webbrowser-rs v0.8.2 hands user-supplied URLs straight to ShellExecuteW on Windows.</description>
+    </item>
+    <item>
+      <title>Unauthenticated RCE in GetSimple CMS via Path Traversal</title>
+      <link>https://yosef0x1.com/post-demo.html?cve=CVE-2022-41544</link>
+      <guid isPermaLink="true">https://yosef0x1.com/post-demo.html?cve=CVE-2022-41544</guid>
+      <category>CVE-2022-41544</category>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 -0000</pubDate>
+      <description>Path traversal in the theme editor gives arbitrary file write — pair with an Apache disclosure for unauth RCE.</description>
+    </item>
+  </channel>
+</rss>

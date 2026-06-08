@@ -149,16 +149,16 @@ function MixedArtboard({page = 'home'}) {
       {page === 'about' && (
       <div className="m-hero">
         <div className="m-eyebrow">About — yosef0x1</div>
-        <h1 className="m-h">Independent <em>offensive security</em> research, <i>shipped quietly</i>.</h1>
-        <p className="m-lede">Six years finding things that should not have been there — across network protocols, firmware, embedded systems, web/API, and ICS/SCADA. All work under responsible disclosure: CVE acknowledgments, bug bounty programs, and contracted red team only.</p>
+        <h1 className="m-h">Offensive security research.</h1>
+        <p className="m-lede">I find, exploit, and disclose vulnerabilities — CVEs, bug bounties, and red team work.</p>
       </div>
       )}
 
       {page === 'contact' && (
       <div className="m-hero">
         <div className="m-eyebrow">Contact — coordinated disclosure</div>
-        <h1 className="m-h">Found something? <em>Send it encrypted.</em></h1>
-        <p className="m-lede">Vendor reports, bounty discussions, talks, and research collaborations welcome. Disclosure follows a 90-day coordinated timeline unless something is already exploited in the wild.</p>
+        <h1 className="m-h">Get in touch.</h1>
+        <p className="m-lede">Vulnerability reports, bounty discussions, and collaborations welcome. Encrypted mail preferred.</p>
       </div>
       )}
 
